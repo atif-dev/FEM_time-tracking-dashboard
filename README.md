@@ -33,8 +33,8 @@ Your users should be able to:
 
 ### Screenshots
 
-![PC View]()
-![Mobile view]()
+![PC View](https://github.com/atif-dev/FEM_time-tracking-dashboard/blob/master/screenshots/screen%201440%20x%20900.png?raw=true)
+![Mobile view](https://github.com/atif-dev/FEM_time-tracking-dashboard/blob/master/screenshots/iphone%208.png?raw=true)
 
 ### Links
 
