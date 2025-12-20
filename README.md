@@ -39,7 +39,7 @@ Your users should be able to:
 ### Links
 
 - Frontend Mentor solution url:    
-- Live Site URL:  
+- Live Site URL: https://atif-dev.github.io/FEM_time-tracking-dashboard/  
 ## My process
 
   - Built by following a design picture.
@@ -62,7 +62,7 @@ Your users should be able to:
 - [Check responsiveness](https://www.lambdatest.com/mobile-view-website) - NICE website for checking responsiveness and taking good looking screen shots.
 - [ChatGPT](https://chat.openai.com/) - Nice to understand code, getting help and code review.
 
-- [Learn JSON working] (https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON) - A good guide to understand JSON with a challenge.
+- [Learn JSON working](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON) - A good guide to understand JSON with a challenge.
 
 ## Author
 

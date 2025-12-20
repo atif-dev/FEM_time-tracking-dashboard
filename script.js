@@ -13,7 +13,8 @@ function showError(){
 
 async function getReport(){
 	try{
-		/*const REQUEST_URL = "/data.json";*/
+
+		/*const REQUEST_URL = "/data.json";*/ /*=> local url. Need local server for working.*/
 		const REQUEST_URL = "https://raw.githubusercontent.com/atif-dev/FEM_time-tracking-dashboard/refs/heads/master/data.json";
 		const REQUEST = new Request(REQUEST_URL); 
 		let response = await fetch(REQUEST);
