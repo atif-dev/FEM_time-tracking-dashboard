@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Frontendmentor time tracking dashboard"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script defer src="script.js"></script>
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <main class="report">
+    <div class="profile">
+      <div class="user-info">
+        <img class="user-image" src="./images/image-jeremy.png" alt="profile picture of jeremy.">
+        <div>
+          <p>Report for</p>
+          <h1 class="user-name">Jeremy Robson</h1>
+        </div>
+      </div>
+
+      <ul>
+        <li id="daily_report">Daily</li>
+        <li id="weekly_report">Weekly</li>
+        <li id="monthly_report">Monthly</li>
+      </ul>
+    </div>
+
+    <div class="work">
+      <div class="stats">
+          <div>
+            <p>Work</p>
+            <p>
+              <svg width="21" height="5" fill="#BBC0FF" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill-rule="evenodd"/></svg>
+            </p>
+          </div>
+          <div>
+            <p id="work_current" class="spent-hours">__</p>
+            <p id="work_previous" class="previous-period">__</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="play">
+      <div class="stats">
+        <div>
+          <p>Play</p>
+          <p>
+            <svg width="21" height="5" fill="#BBC0FF" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill-rule="evenodd"/></svg>
+          </p>
+        </div>
+        <div>
+          <p id="play_current" class="spent-hours">__</p>
+          <p id="play_previous" class="previous-period">__</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="study">
+      <div class="stats">
+        <div>
+          <p>Study</p>
+          <p>
+            <svg width="21" height="5" fill="#BBC0FF" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill-rule="evenodd"/></svg>
+          </p>
+        </div>
+        <div>
+          <p id="study_current" class="spent-hours">__</p>
+          <p id="study_previous" class="previous-period">__</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <div class="stats">
+        <div>
+          <p>Exercise</p>
+          <p>
+            <svg width="21" height="5" fill="#BBC0FF" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill-rule="evenodd"/></svg>
+          </p>
+        </div>
+        <div>
+          <p id="exercise_current" class="spent-hours">__</p>
+          <p id="exercise_previous" class="previous-period">__</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="social">
+      <div class="stats">
+        <div>
+          <p>Social</p>
+          <p>
+            <svg width="21" height="5" fill="#BBC0FF" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill-rule="evenodd"/></svg>
+          </p>
+        </div>
+        <div>
+          <p id="social_current" class="spent-hours">__</p>
+          <p id="social_previous" class="previous-period">__</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="self-care">
+      <div class="stats">
+        <div>
+          <p>Self Care</p>
+          <p>
+            <svg width="21" height="5" fill="#BBC0FF" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill-rule="evenodd"/></svg>
+          </p>
+        </div>
+        <div>
+          <p id="self-care_current" class="spent-hours">__</p>
+          <p id="self-care_previous" class="previous-period">__</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
