@@ -70,7 +70,7 @@ Your users should be able to:
 
 ## Acknowledgments
 
-I have used Google and chatGPT for different things. I believe it's fine to use Google or chatGPT for a coding concepts or code that we completely don't know. There are two good possibilites to use chatGPT and Google for code or coding concepts.
+I have used Google and chatGPT for different things. I believe it's fine to use Google or chatGPT for a coding concept or code that we completely don't know. There are two good possibilites to use chatGPT and Google for code or coding concepts.
  - Completely don't aware then explore, find, ask.
  - Have knowledge then solve a problem and ask for review.
  
