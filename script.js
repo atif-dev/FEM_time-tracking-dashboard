@@ -49,7 +49,7 @@ function populateDailyReport(){
 	monthlyReport.classList.add("white-hover");
 
 		for(let reportSegment of report){
-			if(reportSegment.title ==== "Work"){
+			if(reportSegment.title === "Work"){
 				let workDaily = reportSegment.timeframes.daily;
 				let workCurrent = document.querySelector("#work_current");
 				workCurrent.innerHTML = `${workDaily.current}hrs`;
