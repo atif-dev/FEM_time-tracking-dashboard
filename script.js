@@ -1,4 +1,4 @@
-var report = [];
+let report = [];
 let dailyReport = document.querySelector("#daily_report");
 let weeklyReport = document.querySelector("#weekly_report");
 let monthlyReport = document.querySelector("#monthly_report");
@@ -41,9 +41,10 @@ getReport().then(() => {
 
 function populateDailyReport(){
 
-	dailyReport.style.color = "white";
-	weeklyReport.style.color = "hsl(238, 32%, 60%)";
-	monthlyReport.style.color = "hsl(238, 32%, 60%)";
+	dailyReport.className = "white-color";
+	weeklyReport.className = "purple-color";
+	monthlyReport.className = "purple-color";
+
 	weeklyReport.classList.add("white-hover");
 	monthlyReport.classList.add("white-hover");
 
@@ -103,9 +104,10 @@ function populateReport(){
 		populateDailyReport();
 	}else if(selectedReport === "Weekly"){
 
-		weeklyReport.style.color = "white";
-		dailyReport.style.color = "hsl(238, 32%, 60%)";
-		monthlyReport.style.color = "hsl(238, 32%, 60%)";
+		weeklyReport.className = "white-color";
+		dailyReport.className = "purple-color";
+		monthlyReport.className = "purple-color";
+
 		dailyReport.classList.add("white-hover");
 		monthlyReport.classList.add("white-hover");
 
@@ -158,9 +160,10 @@ function populateReport(){
 
 	}else if(selectedReport === "Monthly"){
 
-		monthlyReport.style.color = "white";
-		dailyReport.style.color = "hsl(238, 32%, 60%)";
-		weeklyReport.style.color = "hsl(238, 32%, 60%)";
+		monthlyReport.className = "white-color";
+		dailyReport.className = "purple-color";
+		weeklyReport.className = "purple-color";
+
 		dailyReport.classList.add("white-hover");
 		weeklyReport.classList.add("white-hover");
 		

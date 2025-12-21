@@ -304,3 +304,10 @@ li{
 	color: red;
 }
 
+.white-color{
+	color: white;
+}
+
+.purple-color{
+	color: hsl(235, 45%, 61%); /*Purple 500*/
+}
