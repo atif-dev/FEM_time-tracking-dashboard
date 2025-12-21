@@ -292,7 +292,7 @@ li{
 	}
 
 	.white-hover:hover{
-		color: white !important;
+		color: white;
 	}
 
 }
