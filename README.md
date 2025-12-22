@@ -44,6 +44,7 @@ Your users should be able to:
 
   - Built by following a design picture.
   - Built with HTML Semantic Elements.
+  - Made UI according to chrome responsive mode scale(Laptop L -1440px,  Laptop-1024px, Mobile M - 375px etc.)
   - Checked design and requirements after building.
   - My efforts + Google + chatGPT.
   - Used google lighthouse.
