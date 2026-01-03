@@ -48,6 +48,7 @@ Your users should be able to:
   - Checked design and requirements after building.
   - My efforts + Google + chatGPT.
   - Used google lighthouse.
+  - Refactored code in separate refactored branch.
 
     
 ### Continued development
